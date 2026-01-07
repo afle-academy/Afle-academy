@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AFLE ACADEMY</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- MAIN CONTENT -->
+<main>
+  <!-- HOME -->
+  <section class="page active" id="home">
+    <h1>Home</h1>
+    <p>Kusoo dhawoow <b>AFLE ACADEMY</b> 🚀</p>
+    <p>Baro Programming laga bilaabo eber ilaa advanced.</p>
+  </section>
+
+  <!-- ABOUT -->
+<section class="page about-page" id="about">
+
+  <h1 class="about-title">About Me</h1>
+
+  <div class="about-container">
+
+    <!-- IMAGE -->
+    <div class="about-image">
+      <!-- Sawirkaaga halkaan ku rid -->
+      <img src="me.jpg" alt="My Photo">
+    </div>
+
+    <!-- CONTENT -->
+    <div class="about-content">
+      <p>
+        Waxaan ahay <b>Web Developer</b> diiradda saaraya
+        dhismaha websites & systems casri ah.
+        Waxaan aaminsanahay design qurux badan iyo code nadiif ah.
+      </p>
+
+      <div class="about-icons">
+        <div class="icon-box">
+          💻
+          <span>Web Developer</span>
+        </div>
+
+        <div class="icon-box">
+          🎓
+          <span>Programming Tutor</span>
+        </div>
+
+        <div class="icon-box">
+          🚀
+          <span>AFLE ACADEMY</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+  <!-- SKILLS / COURSES -->
+  <section class="page" id="skills">
+    <h1>Skills</h1>
+
+    <div class="card">
+      <h3>HTML & CSS</h3>
+      <p>Baro dhismaha website laga bilaabo eber.</p>
+    </div>
+
+    <div class="card">
+      <h3>JavaScript</h3>
+      <p>Baro logic, DOM, iyo interactive websites.</p>
+    </div>
+
+    <div class="card">
+      <h3>PHP & MySQL</h3>
+      <p>Backend development & databases.</p>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO / LESSONS -->
+  <section class="page" id="portfolio">
+    <h1>Lessons</h1>
+
+    <div class="lesson"><a href="../html/htmlIntroduction.html" style=" text-decoration:none ;">
+      <h3>Lesson 1: HTML Basics</h3>
+      <p>Tags, elements, structure.</p>
+      </a>
+    </div>
+
+    <div class="lesson"><a href="#" style=" text-decoration:none ;">
+      <h3>Lesson 2: CSS Design</h3>
+      <p>Colors, layout, responsive.</p>
+    </div>
+      </a>
+    <div class="lesson"><a href="#" style=" text-decoration:none ;">
+      <h3>Lesson 3: JavaScript</h3>
+      <p>Variables, functions, events.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="page" id="contact">
+    <h1>Contact</h1>
+    <p>La xiriir AFLE ACADEMY</p>
+
+    <form>
+      <input type="text" placeholder="Magacaaga">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Fariintaada"></textarea>
+      <button>Send</button>
+    </form>
+  </section>
+</main>
+
+<!-- BOTTOM NAV -->
+<nav class="bottom-nav">
+  <button class="nav-item active" data-target="home">🏠<span>Home</span></button>
+  <button class="nav-item" data-target="about">👤<span>About</span></button>
+  <button class="nav-item" data-target="skills">💻<span>Skills</span></button>
+  <button class="nav-item" data-target="portfolio">📁<span>Lessons</span></button>
+  <button class="nav-item" data-target="contact">✉️<span>Contact</span></button>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
